@@ -11,7 +11,9 @@
 		733897171DD6F7D200573041 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897151DD6F7D200573041 /* Live.storyboard */; };
 		7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897181DD6F7F200573041 /* Follow.storyboard */; };
 		7338971D1DD6F80600573041 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7338971B1DD6F80600573041 /* Profile.storyboard */; };
-		733897211DD6F99A00573041 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733897201DD6F99A00573041 /* MainViewController.swift */; };
+		733897291DD6FC2B00573041 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733897261DD6FC2B00573041 /* MainViewController.swift */; };
+		7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972A1DD6FC8700573041 /* HomeViewController.swift */; };
+		7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */; };
 		7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF111DD6F0DD00C0A1D8 /* AppDelegate.swift */; };
 		7398CF171DD6F0DD00C0A1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */; };
 		7398CF191DD6F0DD00C0A1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7398CF181DD6F0DD00C0A1D8 /* Assets.xcassets */; };
@@ -42,7 +44,9 @@
 		733897161DD6F7D200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		733897191DD6F7F200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		7338971C1DD6F80600573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
-		733897201DD6F99A00573041 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		733897261DD6FC2B00573041 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7338972A1DD6FC8700573041 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		7398CF0E1DD6F0DD00C0A1D8 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7398CF111DD6F0DD00C0A1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7398CF161DD6F0DD00C0A1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +86,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		733897221DD6FC1900573041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				733897121DD6F7BA00573041 /* Home.storyboard */,
+				7338972A1DD6FC8700573041 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		733897231DD6FC1900573041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		733897241DD6FC1900573041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		733897251DD6FC2B00573041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */,
+				733897261DD6FC2B00573041 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		733897271DD6FC2B00573041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		733897281DD6FC2B00573041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7338972C1DD7041700573041 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		7398CF051DD6F0DD00C0A1D8 = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +214,9 @@
 		7398CF411DD6F10400C0A1D8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				733897121DD6F7BA00573041 /* Home.storyboard */,
+				733897231DD6FC1900573041 /* Model */,
+				733897241DD6FC1900573041 /* View */,
+				733897221DD6FC1900573041 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -172,8 +232,9 @@
 		7398CF451DD6F10400C0A1D8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */,
-				733897201DD6F99A00573041 /* MainViewController.swift */,
+				733897271DD6FC2B00573041 /* Model */,
+				733897281DD6FC2B00573041 /* View */,
+				733897251DD6FC2B00573041 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -189,6 +250,7 @@
 		7398CF4C1DD6F10400C0A1D8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				7338972C1DD7041700573041 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -332,7 +394,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */,
-				733897211DD6F99A00573041 /* MainViewController.swift in Sources */,
+				733897291DD6FC2B00573041 /* MainViewController.swift in Sources */,
+				7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */,
+				7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +438,7 @@
 				733897131DD6F7BA00573041 /* Base */,
 			);
 			name = Home.storyboard;
-			path = ../Main;
+			path = ../../Main;
 			sourceTree = "<group>";
 		};
 		733897151DD6F7D200573041 /* Live.storyboard */ = {
@@ -410,7 +474,7 @@
 				7398CF161DD6F0DD00C0A1D8 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		7398CF1A1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard */ = {
