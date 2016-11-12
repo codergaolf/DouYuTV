@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					735D04A11DD41D7300E6BFFF = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = STATF887EN;
 						ProvisioningStyle = Automatic;
 					};
 					735D04BA1DD41D7400E6BFFF = {
@@ -424,7 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = STATF887EN;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = STATF887EN;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +514,7 @@
 				735D04D11DD41D7400E6BFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735D04D21DD41D7400E6BFFF /* Build configuration list for PBXNativeTarget "DouYuTVTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				735D04D41DD41D7400E6BFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735D04D51DD41D7400E6BFFF /* Build configuration list for PBXNativeTarget "DouYuTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				735D04D71DD41D7400E6BFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
