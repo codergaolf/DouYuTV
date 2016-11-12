@@ -126,10 +126,10 @@
 		7398CF3F1DD6F10400C0A1D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7398CF401DD6F10400C0A1D8 /* Follow */,
+				7398CF451DD6F10400C0A1D8 /* Main */,
 				7398CF411DD6F10400C0A1D8 /* Home */,
 				7398CF431DD6F10400C0A1D8 /* Live */,
-				7398CF451DD6F10400C0A1D8 /* Main */,
+				7398CF401DD6F10400C0A1D8 /* Follow */,
 				7398CF4B1DD6F10400C0A1D8 /* Profile */,
 				7398CF4C1DD6F10400C0A1D8 /* Tools */,
 			);
@@ -561,6 +561,7 @@
 				7398CF381DD6F0DD00C0A1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7398CF391DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTVTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +570,7 @@
 				7398CF3B1DD6F0DD00C0A1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7398CF3C1DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +579,7 @@
 				7398CF3E1DD6F0DD00C0A1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
