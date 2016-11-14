@@ -24,6 +24,7 @@
 		7398CF271DD6F0DD00C0A1D8 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF261DD6F0DD00C0A1D8 /* DouYuTVTests.swift */; };
 		7398CF321DD6F0DD00C0A1D8 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF311DD6F0DD00C0A1D8 /* DouYuTVUITests.swift */; };
 		739A59811DD70E490048A050 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A59801DD70E490048A050 /* Common.swift */; };
+		73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		7398CF311DD6F0DD00C0A1D8 /* DouYuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTVUITests.swift; sourceTree = "<group>"; };
 		7398CF331DD6F0DD00C0A1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		739A59801DD70E490048A050 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				733897121DD6F7BA00573041 /* Home.storyboard */,
 				7338972A1DD6FC8700573041 /* HomeViewController.swift */,
+				73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			files = (
 				7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */,
 				738BDD701DD94E030079E9AE /* UIColor-Extension.swift in Sources */,
+				73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */,
 				733897291DD6FC2B00573041 /* MainViewController.swift in Sources */,
 				733897301DD70BAA00573041 /* PageTitleView.swift in Sources */,
 				738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */,
