@@ -1,1817 +1,845 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>201507954AC4B485F72E6BE2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>517BEFD6A6036AE26F85F868</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-DouYuTV.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56A3DBDADD30B2041786D4D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE5EE554E444E1FB563D057B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63A90F12BEC0449BDE219A64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-DouYuTV.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897121DD6F7BA00573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897131DD6F7BA00573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Home.storyboard</string>
-			<key>path</key>
-			<string>../../Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897131DD6F7BA00573041</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>DouYuTV/Base.lproj/Home.storyboard</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>733897141DD6F7BA00573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>733897121DD6F7BA00573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>733897151DD6F7D200573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897161DD6F7D200573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Live.storyboard</string>
-			<key>path</key>
-			<string>../Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897161DD6F7D200573041</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>DouYuTV/Base.lproj/Live.storyboard</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>733897171DD6F7D200573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>733897151DD6F7D200573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>733897181DD6F7F200573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897191DD6F7F200573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Follow.storyboard</string>
-			<key>path</key>
-			<string>../Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897191DD6F7F200573041</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>DouYuTV/Base.lproj/Follow.storyboard</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7338971A1DD6F7F200573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>733897181DD6F7F200573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7338971B1DD6F80600573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7338971C1DD6F80600573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Profile.storyboard</string>
-			<key>path</key>
-			<string>../Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7338971C1DD6F80600573041</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>DouYuTV/Base.lproj/Profile.storyboard</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7338971D1DD6F80600573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7338971B1DD6F80600573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>733897221DD6FC1900573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897121DD6F7BA00573041</string>
-				<string>7338972A1DD6FC8700573041</string>
-				<string>73E686B21DD9A6FA00E24312</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897231DD6FC1900573041</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897241DD6FC1900573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>73E686B41DD9B08700E24312</string>
-				<string>73E686B51DD9B08700E24312</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897251DD6FC2B00573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF151DD6F0DD00C0A1D8</string>
-				<string>733897261DD6FC2B00573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897261DD6FC2B00573041</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MainViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897271DD6FC2B00573041</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897281DD6FC2B00573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7338972F1DD70BAA00573041</string>
-				<string>738BDD6D1DD949C20079E9AE</string>
-				<string>73E686B81DD9B44300E24312</string>
-				<string>73E686B91DD9B44300E24312</string>
-				<string>73E686BC1DD9F08800E24312</string>
-				<string>73E686BD1DD9F08800E24312</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897291DD6FC2B00573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>733897261DD6FC2B00573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7338972A1DD6FC8700573041</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HomeViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7338972B1DD6FC8700573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7338972A1DD6FC8700573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7338972C1DD7041700573041</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7338972D1DD7044D00573041</string>
-				<string>738BDD6F1DD94E030079E9AE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Extension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7338972D1DD7044D00573041</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>UIBarButtonItem-Extension.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7338972E1DD7044D00573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7338972D1DD7044D00573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7338972F1DD70BAA00573041</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PageTitleView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>733897301DD70BAA00573041</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7338972F1DD70BAA00573041</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>738BDD6D1DD949C20079E9AE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PageContentView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>738BDD6E1DD949C20079E9AE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>738BDD6D1DD949C20079E9AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>738BDD6F1DD94E030079E9AE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>UIColor-Extension.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>738BDD701DD94E030079E9AE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>738BDD6F1DD94E030079E9AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF051DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF101DD6F0DD00C0A1D8</string>
-				<string>7398CF251DD6F0DD00C0A1D8</string>
-				<string>7398CF301DD6F0DD00C0A1D8</string>
-				<string>7398CF0F1DD6F0DD00C0A1D8</string>
-				<string>AB0417D25E95EFE5442188DC</string>
-				<string>CC8ADB254944477CAACCF731</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF061DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0810</string>
-				<key>LastUpgradeCheck</key>
-				<string>0810</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>GG</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>7398CF0D1DD6F0DD00C0A1D8</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>7398CF211DD6F0DD00C0A1D8</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>7398CF0D1DD6F0DD00C0A1D8</string>
-					</dict>
-					<key>7398CF2C1DD6F0DD00C0A1D8</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>7398CF0D1DD6F0DD00C0A1D8</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>7398CF091DD6F0DD00C0A1D8</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7398CF051DD6F0DD00C0A1D8</string>
-			<key>productRefGroup</key>
-			<string>7398CF0F1DD6F0DD00C0A1D8</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7398CF0D1DD6F0DD00C0A1D8</string>
-				<string>7398CF211DD6F0DD00C0A1D8</string>
-				<string>7398CF2C1DD6F0DD00C0A1D8</string>
-			</array>
-		</dict>
-		<key>7398CF091DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7398CF341DD6F0DD00C0A1D8</string>
-				<string>7398CF351DD6F0DD00C0A1D8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7398CF0A1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7398CF121DD6F0DD00C0A1D8</string>
-				<string>73E686B61DD9B08700E24312</string>
-				<string>738BDD701DD94E030079E9AE</string>
-				<string>73E686B31DD9A6FA00E24312</string>
-				<string>733897291DD6FC2B00573041</string>
-				<string>733897301DD70BAA00573041</string>
-				<string>738BDD6E1DD949C20079E9AE</string>
-				<string>7338972E1DD7044D00573041</string>
-				<string>739A59811DD70E490048A050</string>
-				<string>73E686BE1DD9F08800E24312</string>
-				<string>73E686BA1DD9B44300E24312</string>
-				<string>73D7BBE81DDD7A4F00F41364</string>
-				<string>7338972B1DD6FC8700573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF0B1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>56A3DBDADD30B2041786D4D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF0C1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7398CF1C1DD6F0DD00C0A1D8</string>
-				<string>73E686B71DD9B08700E24312</string>
-				<string>73E686BB1DD9B44300E24312</string>
-				<string>7398CF191DD6F0DD00C0A1D8</string>
-				<string>7398CF171DD6F0DD00C0A1D8</string>
-				<string>733897171DD6F7D200573041</string>
-				<string>733897141DD6F7BA00573041</string>
-				<string>73E686BF1DD9F08800E24312</string>
-				<string>7338971D1DD6F80600573041</string>
-				<string>7338971A1DD6F7F200573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF0D1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7398CF361DD6F0DD00C0A1D8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DAEC04BE3EBD76800D659481</string>
-				<string>7398CF0A1DD6F0DD00C0A1D8</string>
-				<string>7398CF0B1DD6F0DD00C0A1D8</string>
-				<string>7398CF0C1DD6F0DD00C0A1D8</string>
-				<string>201507954AC4B485F72E6BE2</string>
-				<string>FE6DF50551B73684EA88D9F9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DouYuTV</string>
-			<key>productName</key>
-			<string>DouYuTV</string>
-			<key>productReference</key>
-			<string>7398CF0E1DD6F0DD00C0A1D8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>7398CF0E1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DouYuTV.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7398CF0F1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF0E1DD6F0DD00C0A1D8</string>
-				<string>7398CF221DD6F0DD00C0A1D8</string>
-				<string>7398CF2D1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF101DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF3F1DD6F10400C0A1D8</string>
-				<string>7398CF111DD6F0DD00C0A1D8</string>
-				<string>7398CF181DD6F0DD00C0A1D8</string>
-				<string>7398CF1A1DD6F0DD00C0A1D8</string>
-				<string>7398CF1D1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DouYuTV</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF111DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF121DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7398CF111DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF151DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF161DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>path</key>
-			<string>../../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF161DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF171DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7398CF151DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF181DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF191DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7398CF181DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF1A1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF1B1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF1B1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF1C1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7398CF1A1DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF1D1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF1E1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7398CF271DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF1F1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF201DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF211DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7398CF391DD6F0DD00C0A1D8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7398CF1E1DD6F0DD00C0A1D8</string>
-				<string>7398CF1F1DD6F0DD00C0A1D8</string>
-				<string>7398CF201DD6F0DD00C0A1D8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7398CF241DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DouYuTVTests</string>
-			<key>productName</key>
-			<string>DouYuTVTests</string>
-			<key>productReference</key>
-			<string>7398CF221DD6F0DD00C0A1D8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>7398CF221DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DouYuTVTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7398CF231DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7398CF061DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7398CF0D1DD6F0DD00C0A1D8</string>
-			<key>remoteInfo</key>
-			<string>DouYuTV</string>
-		</dict>
-		<key>7398CF241DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7398CF0D1DD6F0DD00C0A1D8</string>
-			<key>targetProxy</key>
-			<string>7398CF231DD6F0DD00C0A1D8</string>
-		</dict>
-		<key>7398CF251DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF261DD6F0DD00C0A1D8</string>
-				<string>7398CF281DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DouYuTVTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF261DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DouYuTVTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF271DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7398CF261DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF281DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF291DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7398CF321DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF2A1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF2B1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7398CF2C1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7398CF3C1DD6F0DD00C0A1D8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7398CF291DD6F0DD00C0A1D8</string>
-				<string>7398CF2A1DD6F0DD00C0A1D8</string>
-				<string>7398CF2B1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7398CF2F1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DouYuTVUITests</string>
-			<key>productName</key>
-			<string>DouYuTVUITests</string>
-			<key>productReference</key>
-			<string>7398CF2D1DD6F0DD00C0A1D8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>7398CF2D1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DouYuTVUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7398CF2E1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7398CF061DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7398CF0D1DD6F0DD00C0A1D8</string>
-			<key>remoteInfo</key>
-			<string>DouYuTV</string>
-		</dict>
-		<key>7398CF2F1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7398CF0D1DD6F0DD00C0A1D8</string>
-			<key>targetProxy</key>
-			<string>7398CF2E1DD6F0DD00C0A1D8</string>
-		</dict>
-		<key>7398CF301DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF311DD6F0DD00C0A1D8</string>
-				<string>7398CF331DD6F0DD00C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DouYuTVUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF311DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DouYuTVUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF321DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7398CF311DD6F0DD00C0A1D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7398CF331DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF341DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7398CF351DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7398CF361DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7398CF371DD6F0DD00C0A1D8</string>
-				<string>7398CF381DD6F0DD00C0A1D8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7398CF371DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>63A90F12BEC0449BDE219A64</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>Brand Assets</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DouYuTV/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Com.GG.DouYuTV</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7398CF381DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>517BEFD6A6036AE26F85F868</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>Brand Assets</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DouYuTV/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Com.GG.DouYuTV</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7398CF391DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7398CF3A1DD6F0DD00C0A1D8</string>
-				<string>7398CF3B1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7398CF3A1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DouYuTVTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Com.GG.DouYuTVTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/DouYuTV.app/DouYuTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7398CF3B1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DouYuTVTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Com.GG.DouYuTVTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/DouYuTV.app/DouYuTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7398CF3C1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7398CF3D1DD6F0DD00C0A1D8</string>
-				<string>7398CF3E1DD6F0DD00C0A1D8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7398CF3D1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DouYuTVUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Com.GG.DouYuTVUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>DouYuTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7398CF3E1DD6F0DD00C0A1D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DouYuTVUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>Com.GG.DouYuTVUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>DouYuTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7398CF3F1DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7398CF451DD6F10400C0A1D8</string>
-				<string>7398CF411DD6F10400C0A1D8</string>
-				<string>7398CF431DD6F10400C0A1D8</string>
-				<string>7398CF401DD6F10400C0A1D8</string>
-				<string>7398CF4B1DD6F10400C0A1D8</string>
-				<string>7398CF4C1DD6F10400C0A1D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF401DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897181DD6F7F200573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Follow</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF411DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897231DD6FC1900573041</string>
-				<string>733897241DD6FC1900573041</string>
-				<string>733897221DD6FC1900573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Home</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF431DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897151DD6F7D200573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Live</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF451DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>733897271DD6FC2B00573041</string>
-				<string>733897281DD6FC2B00573041</string>
-				<string>733897251DD6FC2B00573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Main</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF4B1DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7338971B1DD6F80600573041</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Profile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7398CF4C1DD6F10400C0A1D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7338972C1DD7041700573041</string>
-				<string>739A59801DD70E490048A050</string>
-				<string>73D7BBE71DDD7A4F00F41364</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Tools</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>739A59801DD70E490048A050</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Common.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>739A59811DD70E490048A050</key>
-		<dict>
-			<key>fileRef</key>
-			<string>739A59801DD70E490048A050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73D7BBE71DDD7A4F00F41364</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>NetworkTools.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73D7BBE81DDD7A4F00F41364</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73D7BBE71DDD7A4F00F41364</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686B21DD9A6FA00E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RecommendViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686B31DD9A6FA00E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686B21DD9A6FA00E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686B41DD9B08700E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CollectionHeaderView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686B51DD9B08700E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>CollectionHeaderView.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686B61DD9B08700E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686B41DD9B08700E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686B71DD9B08700E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686B51DD9B08700E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686B81DD9B44300E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CollectionNormalCell.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686B91DD9B44300E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>CollectionNormalCell.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686BA1DD9B44300E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686B81DD9B44300E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686BB1DD9B44300E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686B91DD9B44300E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686BC1DD9F08800E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CollectionPrettyCell.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686BD1DD9F08800E24312</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>CollectionPrettyCell.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73E686BE1DD9F08800E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686BC1DD9F08800E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73E686BF1DD9F08800E24312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73E686BD1DD9F08800E24312</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AB0417D25E95EFE5442188DC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>63A90F12BEC0449BDE219A64</string>
-				<string>517BEFD6A6036AE26F85F868</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC8ADB254944477CAACCF731</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE5EE554E444E1FB563D057B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DAEC04BE3EBD76800D659481</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FE5EE554E444E1FB563D057B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_DouYuTV.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FE6DF50551B73684EA88D9F9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>7398CF061DD6F0DD00C0A1D8</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A3DBDADD30B2041786D4D1 /* Pods_DouYuTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5EE554E444E1FB563D057B /* Pods_DouYuTV.framework */; };
+		733897141DD6F7BA00573041 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897121DD6F7BA00573041 /* Home.storyboard */; };
+		733897171DD6F7D200573041 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897151DD6F7D200573041 /* Live.storyboard */; };
+		7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897181DD6F7F200573041 /* Follow.storyboard */; };
+		7338971D1DD6F80600573041 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7338971B1DD6F80600573041 /* Profile.storyboard */; };
+		733897291DD6FC2B00573041 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733897261DD6FC2B00573041 /* MainViewController.swift */; };
+		7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972A1DD6FC8700573041 /* HomeViewController.swift */; };
+		7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */; };
+		733897301DD70BAA00573041 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972F1DD70BAA00573041 /* PageTitleView.swift */; };
+		738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */; };
+		738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BDD6D1DD949C20079E9AE /* PageContentView.swift */; };
+		738BDD701DD94E030079E9AE /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BDD6F1DD94E030079E9AE /* UIColor-Extension.swift */; };
+		7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF111DD6F0DD00C0A1D8 /* AppDelegate.swift */; };
+		7398CF171DD6F0DD00C0A1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */; };
+		7398CF191DD6F0DD00C0A1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7398CF181DD6F0DD00C0A1D8 /* Assets.xcassets */; };
+		7398CF1C1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7398CF1A1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard */; };
+		7398CF271DD6F0DD00C0A1D8 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF261DD6F0DD00C0A1D8 /* DouYuTVTests.swift */; };
+		7398CF321DD6F0DD00C0A1D8 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF311DD6F0DD00C0A1D8 /* DouYuTVUITests.swift */; };
+		739A59811DD70E490048A050 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A59801DD70E490048A050 /* Common.swift */; };
+		73D7BBE81DDD7A4F00F41364 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */; };
+		73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */; };
+		73E686B61DD9B08700E24312 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */; };
+		73E686B71DD9B08700E24312 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E686B51DD9B08700E24312 /* CollectionHeaderView.xib */; };
+		73E686BA1DD9B44300E24312 /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B81DD9B44300E24312 /* CollectionNormalCell.swift */; };
+		73E686BB1DD9B44300E24312 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E686B91DD9B44300E24312 /* CollectionNormalCell.xib */; };
+		73E686BE1DD9F08800E24312 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686BC1DD9F08800E24312 /* CollectionPrettyCell.swift */; };
+		73E686BF1DD9F08800E24312 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E686BD1DD9F08800E24312 /* CollectionPrettyCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7398CF231DD6F0DD00C0A1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7398CF061DD6F0DD00C0A1D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7398CF0D1DD6F0DD00C0A1D8;
+			remoteInfo = DouYuTV;
+		};
+		7398CF2E1DD6F0DD00C0A1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7398CF061DD6F0DD00C0A1D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7398CF0D1DD6F0DD00C0A1D8;
+			remoteInfo = DouYuTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		517BEFD6A6036AE26F85F868 /* Pods-DouYuTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.release.xcconfig"; sourceTree = "<group>"; };
+		63A90F12BEC0449BDE219A64 /* Pods-DouYuTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.debug.xcconfig"; sourceTree = "<group>"; };
+		733897131DD6F7BA00573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		733897161DD6F7D200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		733897191DD6F7F200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		7338971C1DD6F80600573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		733897261DD6FC2B00573041 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7338972A1DD6FC8700573041 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		7338972F1DD70BAA00573041 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		738BDD6D1DD949C20079E9AE /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		738BDD6F1DD94E030079E9AE /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		7398CF0E1DD6F0DD00C0A1D8 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7398CF111DD6F0DD00C0A1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7398CF161DD6F0DD00C0A1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7398CF181DD6F0DD00C0A1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7398CF1B1DD6F0DD00C0A1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7398CF1D1DD6F0DD00C0A1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7398CF221DD6F0DD00C0A1D8 /* DouYuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7398CF261DD6F0DD00C0A1D8 /* DouYuTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTVTests.swift; sourceTree = "<group>"; };
+		7398CF281DD6F0DD00C0A1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7398CF2D1DD6F0DD00C0A1D8 /* DouYuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7398CF311DD6F0DD00C0A1D8 /* DouYuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTVUITests.swift; sourceTree = "<group>"; };
+		7398CF331DD6F0DD00C0A1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739A59801DD70E490048A050 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		73E686B51DD9B08700E24312 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		73E686B81DD9B44300E24312 /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		73E686B91DD9B44300E24312 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		73E686BC1DD9F08800E24312 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		73E686BD1DD9F08800E24312 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		FE5EE554E444E1FB563D057B /* Pods_DouYuTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7398CF0B1DD6F0DD00C0A1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A3DBDADD30B2041786D4D1 /* Pods_DouYuTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7398CF1F1DD6F0DD00C0A1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7398CF2A1DD6F0DD00C0A1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		733897221DD6FC1900573041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				733897121DD6F7BA00573041 /* Home.storyboard */,
+				7338972A1DD6FC8700573041 /* HomeViewController.swift */,
+				73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		733897231DD6FC1900573041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		733897241DD6FC1900573041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */,
+				73E686B51DD9B08700E24312 /* CollectionHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		733897251DD6FC2B00573041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */,
+				733897261DD6FC2B00573041 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		733897271DD6FC2B00573041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		733897281DD6FC2B00573041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7338972F1DD70BAA00573041 /* PageTitleView.swift */,
+				738BDD6D1DD949C20079E9AE /* PageContentView.swift */,
+				73E686B81DD9B44300E24312 /* CollectionNormalCell.swift */,
+				73E686B91DD9B44300E24312 /* CollectionNormalCell.xib */,
+				73E686BC1DD9F08800E24312 /* CollectionPrettyCell.swift */,
+				73E686BD1DD9F08800E24312 /* CollectionPrettyCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7338972C1DD7041700573041 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */,
+				738BDD6F1DD94E030079E9AE /* UIColor-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		738A42BA1DDD9A12003DC81A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7398CF051DD6F0DD00C0A1D8 = {
+			isa = PBXGroup;
+			children = (
+				7398CF101DD6F0DD00C0A1D8 /* DouYuTV */,
+				7398CF251DD6F0DD00C0A1D8 /* DouYuTVTests */,
+				7398CF301DD6F0DD00C0A1D8 /* DouYuTVUITests */,
+				7398CF0F1DD6F0DD00C0A1D8 /* Products */,
+				AB0417D25E95EFE5442188DC /* Pods */,
+				CC8ADB254944477CAACCF731 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7398CF0F1DD6F0DD00C0A1D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF0E1DD6F0DD00C0A1D8 /* DouYuTV.app */,
+				7398CF221DD6F0DD00C0A1D8 /* DouYuTVTests.xctest */,
+				7398CF2D1DD6F0DD00C0A1D8 /* DouYuTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7398CF101DD6F0DD00C0A1D8 /* DouYuTV */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF3F1DD6F10400C0A1D8 /* Classes */,
+				7398CF111DD6F0DD00C0A1D8 /* AppDelegate.swift */,
+				7398CF181DD6F0DD00C0A1D8 /* Assets.xcassets */,
+				7398CF1A1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard */,
+				7398CF1D1DD6F0DD00C0A1D8 /* Info.plist */,
+			);
+			path = DouYuTV;
+			sourceTree = "<group>";
+		};
+		7398CF251DD6F0DD00C0A1D8 /* DouYuTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF261DD6F0DD00C0A1D8 /* DouYuTVTests.swift */,
+				7398CF281DD6F0DD00C0A1D8 /* Info.plist */,
+			);
+			path = DouYuTVTests;
+			sourceTree = "<group>";
+		};
+		7398CF301DD6F0DD00C0A1D8 /* DouYuTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF311DD6F0DD00C0A1D8 /* DouYuTVUITests.swift */,
+				7398CF331DD6F0DD00C0A1D8 /* Info.plist */,
+			);
+			path = DouYuTVUITests;
+			sourceTree = "<group>";
+		};
+		7398CF3F1DD6F10400C0A1D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7398CF451DD6F10400C0A1D8 /* Main */,
+				7398CF411DD6F10400C0A1D8 /* Home */,
+				7398CF431DD6F10400C0A1D8 /* Live */,
+				7398CF401DD6F10400C0A1D8 /* Follow */,
+				7398CF4B1DD6F10400C0A1D8 /* Profile */,
+				7398CF4C1DD6F10400C0A1D8 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7398CF401DD6F10400C0A1D8 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				733897181DD6F7F200573041 /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		7398CF411DD6F10400C0A1D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				738A42BA1DDD9A12003DC81A /* ViewModel */,
+				733897231DD6FC1900573041 /* Model */,
+				733897241DD6FC1900573041 /* View */,
+				733897221DD6FC1900573041 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7398CF431DD6F10400C0A1D8 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				733897151DD6F7D200573041 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		7398CF451DD6F10400C0A1D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				733897271DD6FC2B00573041 /* Model */,
+				733897281DD6FC2B00573041 /* View */,
+				733897251DD6FC2B00573041 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7398CF4B1DD6F10400C0A1D8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7338971B1DD6F80600573041 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7398CF4C1DD6F10400C0A1D8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7338972C1DD7041700573041 /* Extension */,
+				739A59801DD70E490048A050 /* Common.swift */,
+				73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AB0417D25E95EFE5442188DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63A90F12BEC0449BDE219A64 /* Pods-DouYuTV.debug.xcconfig */,
+				517BEFD6A6036AE26F85F868 /* Pods-DouYuTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC8ADB254944477CAACCF731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5EE554E444E1FB563D057B /* Pods_DouYuTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7398CF0D1DD6F0DD00C0A1D8 /* DouYuTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7398CF361DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTV" */;
+			buildPhases = (
+				DAEC04BE3EBD76800D659481 /* [CP] Check Pods Manifest.lock */,
+				7398CF0A1DD6F0DD00C0A1D8 /* Sources */,
+				7398CF0B1DD6F0DD00C0A1D8 /* Frameworks */,
+				7398CF0C1DD6F0DD00C0A1D8 /* Resources */,
+				201507954AC4B485F72E6BE2 /* [CP] Embed Pods Frameworks */,
+				FE6DF50551B73684EA88D9F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouYuTV;
+			productName = DouYuTV;
+			productReference = 7398CF0E1DD6F0DD00C0A1D8 /* DouYuTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7398CF211DD6F0DD00C0A1D8 /* DouYuTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7398CF391DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTVTests" */;
+			buildPhases = (
+				7398CF1E1DD6F0DD00C0A1D8 /* Sources */,
+				7398CF1F1DD6F0DD00C0A1D8 /* Frameworks */,
+				7398CF201DD6F0DD00C0A1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7398CF241DD6F0DD00C0A1D8 /* PBXTargetDependency */,
+			);
+			name = DouYuTVTests;
+			productName = DouYuTVTests;
+			productReference = 7398CF221DD6F0DD00C0A1D8 /* DouYuTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7398CF2C1DD6F0DD00C0A1D8 /* DouYuTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7398CF3C1DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTVUITests" */;
+			buildPhases = (
+				7398CF291DD6F0DD00C0A1D8 /* Sources */,
+				7398CF2A1DD6F0DD00C0A1D8 /* Frameworks */,
+				7398CF2B1DD6F0DD00C0A1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7398CF2F1DD6F0DD00C0A1D8 /* PBXTargetDependency */,
+			);
+			name = DouYuTVUITests;
+			productName = DouYuTVUITests;
+			productReference = 7398CF2D1DD6F0DD00C0A1D8 /* DouYuTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7398CF061DD6F0DD00C0A1D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = GG;
+				TargetAttributes = {
+					7398CF0D1DD6F0DD00C0A1D8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					7398CF211DD6F0DD00C0A1D8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7398CF0D1DD6F0DD00C0A1D8;
+					};
+					7398CF2C1DD6F0DD00C0A1D8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7398CF0D1DD6F0DD00C0A1D8;
+					};
+				};
+			};
+			buildConfigurationList = 7398CF091DD6F0DD00C0A1D8 /* Build configuration list for PBXProject "DouYuTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7398CF051DD6F0DD00C0A1D8;
+			productRefGroup = 7398CF0F1DD6F0DD00C0A1D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7398CF0D1DD6F0DD00C0A1D8 /* DouYuTV */,
+				7398CF211DD6F0DD00C0A1D8 /* DouYuTVTests */,
+				7398CF2C1DD6F0DD00C0A1D8 /* DouYuTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7398CF0C1DD6F0DD00C0A1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7398CF1C1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard in Resources */,
+				73E686B71DD9B08700E24312 /* CollectionHeaderView.xib in Resources */,
+				73E686BB1DD9B44300E24312 /* CollectionNormalCell.xib in Resources */,
+				7398CF191DD6F0DD00C0A1D8 /* Assets.xcassets in Resources */,
+				7398CF171DD6F0DD00C0A1D8 /* Main.storyboard in Resources */,
+				733897171DD6F7D200573041 /* Live.storyboard in Resources */,
+				733897141DD6F7BA00573041 /* Home.storyboard in Resources */,
+				73E686BF1DD9F08800E24312 /* CollectionPrettyCell.xib in Resources */,
+				7338971D1DD6F80600573041 /* Profile.storyboard in Resources */,
+				7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7398CF201DD6F0DD00C0A1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7398CF2B1DD6F0DD00C0A1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		201507954AC4B485F72E6BE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEC04BE3EBD76800D659481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6DF50551B73684EA88D9F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7398CF0A1DD6F0DD00C0A1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */,
+				73E686B61DD9B08700E24312 /* CollectionHeaderView.swift in Sources */,
+				738BDD701DD94E030079E9AE /* UIColor-Extension.swift in Sources */,
+				73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */,
+				733897291DD6FC2B00573041 /* MainViewController.swift in Sources */,
+				733897301DD70BAA00573041 /* PageTitleView.swift in Sources */,
+				738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */,
+				7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */,
+				739A59811DD70E490048A050 /* Common.swift in Sources */,
+				73E686BE1DD9F08800E24312 /* CollectionPrettyCell.swift in Sources */,
+				73E686BA1DD9B44300E24312 /* CollectionNormalCell.swift in Sources */,
+				73D7BBE81DDD7A4F00F41364 /* NetworkTools.swift in Sources */,
+				7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */,
+				738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7398CF1E1DD6F0DD00C0A1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7398CF271DD6F0DD00C0A1D8 /* DouYuTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7398CF291DD6F0DD00C0A1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7398CF321DD6F0DD00C0A1D8 /* DouYuTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7398CF241DD6F0DD00C0A1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7398CF0D1DD6F0DD00C0A1D8 /* DouYuTV */;
+			targetProxy = 7398CF231DD6F0DD00C0A1D8 /* PBXContainerItemProxy */;
+		};
+		7398CF2F1DD6F0DD00C0A1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7398CF0D1DD6F0DD00C0A1D8 /* DouYuTV */;
+			targetProxy = 7398CF2E1DD6F0DD00C0A1D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		733897121DD6F7BA00573041 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733897131DD6F7BA00573041 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		733897151DD6F7D200573041 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733897161DD6F7D200573041 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		733897181DD6F7F200573041 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733897191DD6F7F200573041 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		7338971B1DD6F80600573041 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7338971C1DD6F80600573041 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7398CF161DD6F0DD00C0A1D8 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		7398CF1A1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7398CF1B1DD6F0DD00C0A1D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7398CF341DD6F0DD00C0A1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7398CF351DD6F0DD00C0A1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7398CF371DD6F0DD00C0A1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A90F12BEC0449BDE219A64 /* Pods-DouYuTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7398CF381DD6F0DD00C0A1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517BEFD6A6036AE26F85F868 /* Pods-DouYuTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7398CF3A1DD6F0DD00C0A1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DouYuTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DouYuTV.app/DouYuTV";
+			};
+			name = Debug;
+		};
+		7398CF3B1DD6F0DD00C0A1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DouYuTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DouYuTV.app/DouYuTV";
+			};
+			name = Release;
+		};
+		7398CF3D1DD6F0DD00C0A1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DouYuTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DouYuTV;
+			};
+			name = Debug;
+		};
+		7398CF3E1DD6F0DD00C0A1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DouYuTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.GG.DouYuTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DouYuTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7398CF091DD6F0DD00C0A1D8 /* Build configuration list for PBXProject "DouYuTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7398CF341DD6F0DD00C0A1D8 /* Debug */,
+				7398CF351DD6F0DD00C0A1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7398CF361DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7398CF371DD6F0DD00C0A1D8 /* Debug */,
+				7398CF381DD6F0DD00C0A1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7398CF391DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7398CF3A1DD6F0DD00C0A1D8 /* Debug */,
+				7398CF3B1DD6F0DD00C0A1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7398CF3C1DD6F0DD00C0A1D8 /* Build configuration list for PBXNativeTarget "DouYuTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7398CF3D1DD6F0DD00C0A1D8 /* Debug */,
+				7398CF3E1DD6F0DD00C0A1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7398CF061DD6F0DD00C0A1D8 /* Project object */;
+}
