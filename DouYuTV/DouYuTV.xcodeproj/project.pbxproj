@@ -17,6 +17,9 @@
 		7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */; };
 		733897301DD70BAA00573041 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338972F1DD70BAA00573041 /* PageTitleView.swift */; };
 		738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */; };
+		738A42BE1DDD9D65003DC81A /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */; };
+		738A42C01DDDA005003DC81A /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BF1DDDA005003DC81A /* AnchorGroup.swift */; };
+		738A42C21DDDA1C3003DC81A /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42C11DDDA1C3003DC81A /* AnchorModel.swift */; };
 		738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BDD6D1DD949C20079E9AE /* PageContentView.swift */; };
 		738BDD701DD94E030079E9AE /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BDD6F1DD94E030079E9AE /* UIColor-Extension.swift */; };
 		7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CF111DD6F0DD00C0A1D8 /* AppDelegate.swift */; };
@@ -65,6 +68,9 @@
 		7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		7338972F1DD70BAA00573041 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		738A42BF1DDDA005003DC81A /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		738A42C11DDDA1C3003DC81A /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
 		738BDD6D1DD949C20079E9AE /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		738BDD6F1DD94E030079E9AE /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		7398CF0E1DD6F0DD00C0A1D8 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +161,8 @@
 		733897271DD6FC2B00573041 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				738A42BF1DDDA005003DC81A /* AnchorGroup.swift */,
+				738A42C11DDDA1C3003DC81A /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 			children = (
 				7338972D1DD7044D00573041 /* UIBarButtonItem-Extension.swift */,
 				738BDD6F1DD94E030079E9AE /* UIColor-Extension.swift */,
+				738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -522,16 +531,19 @@
 				73E686B61DD9B08700E24312 /* CollectionHeaderView.swift in Sources */,
 				738BDD701DD94E030079E9AE /* UIColor-Extension.swift in Sources */,
 				73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */,
+				738A42C01DDDA005003DC81A /* AnchorGroup.swift in Sources */,
 				733897291DD6FC2B00573041 /* MainViewController.swift in Sources */,
 				733897301DD70BAA00573041 /* PageTitleView.swift in Sources */,
 				738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */,
 				7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */,
 				739A59811DD70E490048A050 /* Common.swift in Sources */,
 				73E686BE1DD9F08800E24312 /* CollectionPrettyCell.swift in Sources */,
+				738A42BE1DDD9D65003DC81A /* NSDate-Extension.swift in Sources */,
 				73E686BA1DD9B44300E24312 /* CollectionNormalCell.swift in Sources */,
 				73D7BBE81DDD7A4F00F41364 /* NetworkTools.swift in Sources */,
 				7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */,
 				738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */,
+				738A42C21DDDA1C3003DC81A /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
