@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -46,32 +45,36 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666在线" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mne-Gb-nHY">
-                        <rect key="frame" x="161" y="5" width="60" height="20"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNg-sN-Okl">
+                        <rect key="frame" x="158" y="8" width="60" height="20"/>
                         <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="60" id="IdF-Je-ndt"/>
-                            <constraint firstAttribute="height" constant="20" id="PUS-Ry-4ow"/>
+                            <constraint firstAttribute="width" constant="60" id="38j-2q-u34"/>
+                            <constraint firstAttribute="height" constant="20" id="Up9-4N-b2V"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <nil key="highlightedColor"/>
+                        <state key="normal">
+                            <string key="title" base64-UTF8="YES">
+NjY2COWcqOe6vw
+</string>
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                <integer key="value" value="3"/>
+                                <integer key="value" value="4"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
-                    </label>
+                    </button>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstItem="NYe-GL-II4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="15r-Io-QBS"/>
                 <constraint firstItem="of1-rh-Gwd" firstAttribute="top" secondItem="bVV-Sc-i94" secondAttribute="bottom" constant="5" id="1jx-vC-Ge7"/>
-                <constraint firstItem="mne-Gb-nHY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="A4p-FK-yg9"/>
                 <constraint firstItem="NYe-GL-II4" firstAttribute="top" secondItem="of1-rh-Gwd" secondAttribute="bottom" constant="5" id="BMn-GS-3LR"/>
+                <constraint firstItem="JNg-sN-Okl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="DiF-Kj-QUU"/>
                 <constraint firstAttribute="trailing" secondItem="of1-rh-Gwd" secondAttribute="trailing" constant="5" id="Sqp-jx-VRs"/>
-                <constraint firstAttribute="trailing" secondItem="mne-Gb-nHY" secondAttribute="trailing" constant="5" id="YRa-2t-EGO"/>
+                <constraint firstAttribute="trailing" secondItem="JNg-sN-Okl" secondAttribute="trailing" constant="8" id="W94-4S-gWo"/>
                 <constraint firstItem="of1-rh-Gwd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bwi-eJ-JjD"/>
                 <constraint firstItem="bVV-Sc-i94" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eWJ-Qe-tS5"/>
                 <constraint firstItem="bVV-Sc-i94" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="jg1-1y-vjw"/>
@@ -79,6 +82,12 @@
                 <constraint firstAttribute="bottom" secondItem="NYe-GL-II4" secondAttribute="bottom" constant="10" id="y0Q-Dr-gEx"/>
             </constraints>
             <size key="customSize" width="226" height="281"/>
+            <connections>
+                <outlet property="cityBtn" destination="NYe-GL-II4" id="cpd-hd-JxR"/>
+                <outlet property="iconImageView" destination="bVV-Sc-i94" id="JWv-Pp-cml"/>
+                <outlet property="nicknameLabel" destination="of1-rh-Gwd" id="aW0-Q9-JF0"/>
+                <outlet property="onlineBtn" destination="JNg-sN-Okl" id="utx-9N-XDl"/>
+            </connections>
             <point key="canvasLocation" x="289" y="-28.5"/>
         </collectionViewCell>
     </objects>
