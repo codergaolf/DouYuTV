@@ -35,6 +35,7 @@ class RecommendViewController: UIViewController {
         collectionView.backgroundColor = UIColor.white
         collectionView.dataSource = self
         collectionView.delegate = self
+        //自适应的宽高
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         collectionView.register(UINib(nibName: "CollectionNormalCell", bundle: nil), forCellWithReuseIdentifier: kNormalCellID)
         collectionView.register(UINib(nibName: "CollectionPrettyCell", bundle: nil), forCellWithReuseIdentifier: kPrettyCellID)
@@ -50,6 +51,9 @@ class RecommendViewController: UIViewController {
         //设置UI界面
         setupUI()
         
+        //发送网络请求
+        loadData()
+        
     }
 
 }
@@ -60,6 +64,16 @@ extension RecommendViewController {
     fileprivate func setupUI() {
         //将UICollectionView添加到控制器view中
         view.addSubview(collectionView)
+    }
+}
+
+// MARK:- 请求数据
+extension RecommendViewController {
+    fileprivate func loadData() {
+        NetworkTools.requestData(.get, URLString: "http://httpbin.org/get", parameters: ["name" : "name"]) { (result) -> () in
+            print(result)
+        }
+
     }
 }
 
