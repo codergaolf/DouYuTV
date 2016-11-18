@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		56A3DBDADD30B2041786D4D1 /* Pods_DouYuTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5EE554E444E1FB563D057B /* Pods_DouYuTV.framework */; };
+		7322A5131DDE8E2800C70DEB /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322A5121DDE8E2800C70DEB /* RecommendCycleView.swift */; };
+		7322A5151DDE8E5900C70DEB /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */; };
 		733897141DD6F7BA00573041 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897121DD6F7BA00573041 /* Home.storyboard */; };
 		733897171DD6F7D200573041 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897151DD6F7D200573041 /* Live.storyboard */; };
 		7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897181DD6F7F200573041 /* Follow.storyboard */; };
@@ -82,6 +84,8 @@
 /* Begin PBXFileReference section */
 		517BEFD6A6036AE26F85F868 /* Pods-DouYuTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.release.xcconfig"; sourceTree = "<group>"; };
 		63A90F12BEC0449BDE219A64 /* Pods-DouYuTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTV/Pods-DouYuTV.debug.xcconfig"; sourceTree = "<group>"; };
+		7322A5121DDE8E2800C70DEB /* RecommendCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
 		733897131DD6F7BA00573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		733897161DD6F7D200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		733897191DD6F7F200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
@@ -192,6 +196,8 @@
 			children = (
 				73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */,
 				73E686B51DD9B08700E24312 /* CollectionHeaderView.xib */,
+				7322A5121DDE8E2800C70DEB /* RecommendCycleView.swift */,
+				7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,6 +554,7 @@
 				73C8BDDD1DDE007100FA1E3B /* LICENSE in Resources */,
 				733897171DD6F7D200573041 /* Live.storyboard in Resources */,
 				733897141DD6F7BA00573041 /* Home.storyboard in Resources */,
+				7322A5151DDE8E5900C70DEB /* RecommendCycleView.xib in Resources */,
 				73E686BF1DD9F08800E24312 /* CollectionPrettyCell.xib in Resources */,
 				7338971D1DD6F80600573041 /* Profile.storyboard in Resources */,
 				7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */,
@@ -639,6 +646,7 @@
 				738A42C01DDDA005003DC81A /* AnchorGroup.swift in Sources */,
 				733897291DD6FC2B00573041 /* MainViewController.swift in Sources */,
 				73C8BDEF1DDE007100FA1E3B /* Resource.swift in Sources */,
+				7322A5131DDE8E2800C70DEB /* RecommendCycleView.swift in Sources */,
 				73C8BDDE1DDE007100FA1E3B /* README.md in Sources */,
 				733897301DD70BAA00573041 /* PageTitleView.swift in Sources */,
 				73C8BDEA1DDE007100FA1E3B /* Indicator.swift in Sources */,
