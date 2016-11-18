@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionGameCell" customModule="DouYuTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英雄联盟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAc-V6-JYu">
+                        <rect key="frame" x="15" y="65" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="hbr-40-UW1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dgM-en-HZu">
+                        <rect key="frame" x="18" y="15" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="dgM-en-HZu" secondAttribute="height" multiplier="1:1" id="uBC-Je-sAx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="22.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vAc-V6-JYu" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Sir-Ow-1CT"/>
+                <constraint firstItem="dgM-en-HZu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="YDa-2K-NC0"/>
+                <constraint firstItem="vAc-V6-JYu" firstAttribute="top" secondItem="dgM-en-HZu" secondAttribute="bottom" constant="5" id="YN0-Ef-J3J"/>
+                <constraint firstItem="dgM-en-HZu" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ZGs-po-Uij"/>
+                <constraint firstAttribute="bottom" secondItem="vAc-V6-JYu" secondAttribute="bottom" constant="10" id="gpl-Ex-Itn"/>
+            </constraints>
+            <size key="customSize" width="166" height="154"/>
+            <connections>
+                <outlet property="iconImageView" destination="dgM-en-HZu" id="mVZ-bu-IRa"/>
+                <outlet property="titleLabel" destination="vAc-V6-JYu" id="24T-vf-1vK"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="-21"/>
+        </collectionViewCell>
+    </objects>
+</document>

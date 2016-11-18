@@ -59,6 +59,8 @@
 		73C8BDF41DDE042C00FA1E3B /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BDF31DDE042C00FA1E3B /* CollectionBaseCell.swift */; };
 		73D28D951DDF359F004E3C3C /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D28D941DDF359F004E3C3C /* RecommendGameView.swift */; };
 		73D28D971DDF35B5004E3C3C /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */; };
+		73D28D9A1DDF40EF004E3C3C /* CollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D28D981DDF40EF004E3C3C /* CollectionGameCell.swift */; };
+		73D28D9B1DDF40EF004E3C3C /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73D28D991DDF40EF004E3C3C /* CollectionGameCell.xib */; };
 		73D7BBE81DDD7A4F00F41364 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */; };
 		73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */; };
 		73E686B61DD9B08700E24312 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */; };
@@ -147,6 +149,8 @@
 		73C8BDF31DDE042C00FA1E3B /* CollectionBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
 		73D28D941DDF359F004E3C3C /* RecommendGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
 		73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
+		73D28D981DDF40EF004E3C3C /* CollectionGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionGameCell.swift; sourceTree = "<group>"; };
+		73D28D991DDF40EF004E3C3C /* CollectionGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
 		73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 				7322A5191DDEA1D100C70DEB /* CollectionCycleCell.xib */,
 				73D28D941DDF359F004E3C3C /* RecommendGameView.swift */,
 				73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */,
+				73D28D981DDF40EF004E3C3C /* CollectionGameCell.swift */,
+				73D28D991DDF40EF004E3C3C /* CollectionGameCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 				TargetAttributes = {
 					7398CF0D1DD6F0DD00C0A1D8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = STATF887EN;
 						ProvisioningStyle = Automatic;
 					};
 					7398CF211DD6F0DD00C0A1D8 = {
@@ -563,6 +570,7 @@
 			files = (
 				7398CF1C1DD6F0DD00C0A1D8 /* LaunchScreen.storyboard in Resources */,
 				73E686B71DD9B08700E24312 /* CollectionHeaderView.xib in Resources */,
+				73D28D9B1DDF40EF004E3C3C /* CollectionGameCell.xib in Resources */,
 				73E686BB1DD9B44300E24312 /* CollectionNormalCell.xib in Resources */,
 				7398CF191DD6F0DD00C0A1D8 /* Assets.xcassets in Resources */,
 				7398CF171DD6F0DD00C0A1D8 /* Main.storyboard in Resources */,
@@ -684,6 +692,7 @@
 				73C8BDE41DDE007100FA1E3B /* ImageCache.swift in Sources */,
 				73E686BA1DD9B44300E24312 /* CollectionNormalCell.swift in Sources */,
 				73C8BDE81DDE007100FA1E3B /* ImageTransition.swift in Sources */,
+				73D28D9A1DDF40EF004E3C3C /* CollectionGameCell.swift in Sources */,
 				73C8BDE61DDE007100FA1E3B /* ImagePrefetcher.swift in Sources */,
 				73D7BBE81DDD7A4F00F41364 /* NetworkTools.swift in Sources */,
 				7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */,
@@ -880,6 +889,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = STATF887EN;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -895,6 +905,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = STATF887EN;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
