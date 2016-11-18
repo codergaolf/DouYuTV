@@ -11,6 +11,8 @@
 		7322A5131DDE8E2800C70DEB /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322A5121DDE8E2800C70DEB /* RecommendCycleView.swift */; };
 		7322A5151DDE8E5900C70DEB /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */; };
 		7322A5171DDE9E4000C70DEB /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322A5161DDE9E4000C70DEB /* CycleModel.swift */; };
+		7322A51A1DDEA1D100C70DEB /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322A5181DDEA1D100C70DEB /* CollectionCycleCell.swift */; };
+		7322A51B1DDEA1D100C70DEB /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7322A5191DDEA1D100C70DEB /* CollectionCycleCell.xib */; };
 		733897141DD6F7BA00573041 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897121DD6F7BA00573041 /* Home.storyboard */; };
 		733897171DD6F7D200573041 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897151DD6F7D200573041 /* Live.storyboard */; };
 		7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733897181DD6F7F200573041 /* Follow.storyboard */; };
@@ -88,6 +90,8 @@
 		7322A5121DDE8E2800C70DEB /* RecommendCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
 		7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
 		7322A5161DDE9E4000C70DEB /* CycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		7322A5181DDEA1D100C70DEB /* CollectionCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		7322A5191DDEA1D100C70DEB /* CollectionCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
 		733897131DD6F7BA00573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		733897161DD6F7D200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		733897191DD6F7F200573041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
@@ -201,6 +205,8 @@
 				73E686B51DD9B08700E24312 /* CollectionHeaderView.xib */,
 				7322A5121DDE8E2800C70DEB /* RecommendCycleView.swift */,
 				7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */,
+				7322A5181DDEA1D100C70DEB /* CollectionCycleCell.swift */,
+				7322A5191DDEA1D100C70DEB /* CollectionCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -559,6 +565,7 @@
 				733897141DD6F7BA00573041 /* Home.storyboard in Resources */,
 				7322A5151DDE8E5900C70DEB /* RecommendCycleView.xib in Resources */,
 				73E686BF1DD9F08800E24312 /* CollectionPrettyCell.xib in Resources */,
+				7322A51B1DDEA1D100C70DEB /* CollectionCycleCell.xib in Resources */,
 				7338971D1DD6F80600573041 /* Profile.storyboard in Resources */,
 				7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */,
 			);
@@ -641,6 +648,7 @@
 				73C8BDED1DDE007100FA1E3B /* KingfisherOptionsInfo.swift in Sources */,
 				73C8BDE91DDE007100FA1E3B /* ImageView+Kingfisher.swift in Sources */,
 				73C8BDE31DDE007100FA1E3B /* Image.swift in Sources */,
+				7322A51A1DDEA1D100C70DEB /* CollectionCycleCell.swift in Sources */,
 				73E686B61DD9B08700E24312 /* CollectionHeaderView.swift in Sources */,
 				738BDD701DD94E030079E9AE /* UIColor-Extension.swift in Sources */,
 				73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */,
