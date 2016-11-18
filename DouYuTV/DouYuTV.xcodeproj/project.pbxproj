@@ -57,6 +57,8 @@
 		73C8BDF11DDE007100FA1E3B /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BDDB1DDE007100FA1E3B /* ThreadHelper.swift */; };
 		73C8BDF21DDE007100FA1E3B /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BDDC1DDE007100FA1E3B /* UIButton+Kingfisher.swift */; };
 		73C8BDF41DDE042C00FA1E3B /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8BDF31DDE042C00FA1E3B /* CollectionBaseCell.swift */; };
+		73D28D951DDF359F004E3C3C /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D28D941DDF359F004E3C3C /* RecommendGameView.swift */; };
+		73D28D971DDF35B5004E3C3C /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */; };
 		73D7BBE81DDD7A4F00F41364 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */; };
 		73E686B31DD9A6FA00E24312 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */; };
 		73E686B61DD9B08700E24312 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */; };
@@ -143,6 +145,8 @@
 		73C8BDDB1DDE007100FA1E3B /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
 		73C8BDDC1DDE007100FA1E3B /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		73C8BDF31DDE042C00FA1E3B /* CollectionBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
+		73D28D941DDF359F004E3C3C /* RecommendGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
+		73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
 		73D7BBE71DDD7A4F00F41364 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		73E686B41DD9B08700E24312 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 				7322A5141DDE8E5900C70DEB /* RecommendCycleView.xib */,
 				7322A5181DDEA1D100C70DEB /* CollectionCycleCell.swift */,
 				7322A5191DDEA1D100C70DEB /* CollectionCycleCell.xib */,
+				73D28D941DDF359F004E3C3C /* RecommendGameView.swift */,
+				73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -560,6 +566,7 @@
 				73E686BB1DD9B44300E24312 /* CollectionNormalCell.xib in Resources */,
 				7398CF191DD6F0DD00C0A1D8 /* Assets.xcassets in Resources */,
 				7398CF171DD6F0DD00C0A1D8 /* Main.storyboard in Resources */,
+				73D28D971DDF35B5004E3C3C /* RecommendGameView.xib in Resources */,
 				73C8BDDD1DDE007100FA1E3B /* LICENSE in Resources */,
 				733897171DD6F7D200573041 /* Live.storyboard in Resources */,
 				733897141DD6F7BA00573041 /* Home.storyboard in Resources */,
@@ -665,6 +672,7 @@
 				73C8BDE51DDE007100FA1E3B /* ImageDownloader.swift in Sources */,
 				73C8BDF11DDE007100FA1E3B /* ThreadHelper.swift in Sources */,
 				73C8BDE01DDE007100FA1E3B /* Box.swift in Sources */,
+				73D28D951DDF359F004E3C3C /* RecommendGameView.swift in Sources */,
 				738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */,
 				7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */,
 				73C8BDE21DDE007100FA1E3B /* Filter.swift in Sources */,
