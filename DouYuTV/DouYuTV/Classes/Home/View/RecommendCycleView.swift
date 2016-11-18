@@ -12,6 +12,17 @@ import UIKit
 private let kCycleCellID = "kCycleCellID"
 
 class RecommendCycleView: UIView {
+    
+    // 定义属性
+    var cycleModels : [CycleModel]? {
+        didSet {
+            // 1,刷新collectionView
+            collectionView.reloadData()
+            
+            // 2,设置pageControl的个数
+            pageControl.numberOfPages = cycleModels?.count ?? 0
+        }
+    }
 
     // MARK:- 控件属性
     @IBOutlet weak var collectionView: UICollectionView!
@@ -47,10 +58,14 @@ extension RecommendCycleView {
 // MARK:- 遵守UICollectionViewDatasource方法
 extension RecommendCycleView : UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return cycleModels?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        // 1,取出model
+        let cycleModel = cycleModels![indexPath.item]
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kCycleCellID, for: indexPath)
         
         cell.backgroundColor = indexPath.item % 2 == 0 ? UIColor.orange : UIColor.red
