@@ -28,6 +28,8 @@
 		7387AA541DE01B820086517B /* AmuseMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7387AA531DE01B820086517B /* AmuseMenuView.xib */; };
 		7387AA571DE0240C0086517B /* AmuseMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA551DE0240C0086517B /* AmuseMenuViewCell.swift */; };
 		7387AA581DE0240C0086517B /* AmuseMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */; };
+		7387AA5A1DE02C1C0086517B /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA591DE02C1C0086517B /* FunnyViewController.swift */; };
+		7387AA5C1DE02FD90086517B /* FunnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA5B1DE02FD90086517B /* FunnyViewModel.swift */; };
 		738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */; };
 		738A42BE1DDD9D65003DC81A /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */; };
 		738A42C01DDDA005003DC81A /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BF1DDDA005003DC81A /* AnchorGroup.swift */; };
@@ -123,6 +125,8 @@
 		7387AA531DE01B820086517B /* AmuseMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuView.xib; sourceTree = "<group>"; };
 		7387AA551DE0240C0086517B /* AmuseMenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseMenuViewCell.swift; sourceTree = "<group>"; };
 		7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuViewCell.xib; sourceTree = "<group>"; };
+		7387AA591DE02C1C0086517B /* FunnyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewController.swift; sourceTree = "<group>"; };
+		7387AA5B1DE02FD90086517B /* FunnyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewModel.swift; sourceTree = "<group>"; };
 		738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		738A42BF1DDDA005003DC81A /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
@@ -220,6 +224,7 @@
 				73E686B21DD9A6FA00E24312 /* RecommendViewController.swift */,
 				73C6ED821DDFD325004F9212 /* GameViewController.swift */,
 				73C6ED8A1DDFEF67004F9212 /* AmuseViewController.swift */,
+				7387AA591DE02C1C0086517B /* FunnyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 				738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */,
 				73C6ED841DDFD87E004F9212 /* GameViewModel.swift */,
 				7387AA4A1DDFF4940086517B /* AmuseViewModel.swift */,
+				7387AA5B1DE02FD90086517B /* FunnyViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -704,6 +710,7 @@
 				7398CF121DD6F0DD00C0A1D8 /* AppDelegate.swift in Sources */,
 				73C8BDEE1DDE007100FA1E3B /* RequrstModifier.swift in Sources */,
 				7387AA501DDFFE660086517B /* BaseAnchorViewController.swift in Sources */,
+				7387AA5C1DE02FD90086517B /* FunnyViewModel.swift in Sources */,
 				7387AA4E1DDFFBAF0086517B /* BaseViewModel.swift in Sources */,
 				73C8BDE71DDE007100FA1E3B /* ImageProcessor.swift in Sources */,
 				73C8BDF01DDE007100FA1E3B /* String+MD5.swift in Sources */,
@@ -754,6 +761,7 @@
 				7338972B1DD6FC8700573041 /* HomeViewController.swift in Sources */,
 				73C8BDF21DDE007100FA1E3B /* UIButton+Kingfisher.swift in Sources */,
 				738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */,
+				7387AA5A1DE02C1C0086517B /* FunnyViewController.swift in Sources */,
 				738A42C21DDDA1C3003DC81A /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
