@@ -24,6 +24,10 @@
 		7387AA4B1DDFF4940086517B /* AmuseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA4A1DDFF4940086517B /* AmuseViewModel.swift */; };
 		7387AA4E1DDFFBAF0086517B /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA4D1DDFFBAF0086517B /* BaseViewModel.swift */; };
 		7387AA501DDFFE660086517B /* BaseAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA4F1DDFFE660086517B /* BaseAnchorViewController.swift */; };
+		7387AA521DE01B660086517B /* AmuseMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA511DE01B660086517B /* AmuseMenuView.swift */; };
+		7387AA541DE01B820086517B /* AmuseMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7387AA531DE01B820086517B /* AmuseMenuView.xib */; };
+		7387AA571DE0240C0086517B /* AmuseMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA551DE0240C0086517B /* AmuseMenuViewCell.swift */; };
+		7387AA581DE0240C0086517B /* AmuseMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */; };
 		738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */; };
 		738A42BE1DDD9D65003DC81A /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */; };
 		738A42C01DDDA005003DC81A /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BF1DDDA005003DC81A /* AnchorGroup.swift */; };
@@ -115,6 +119,10 @@
 		7387AA4A1DDFF4940086517B /* AmuseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseViewModel.swift; sourceTree = "<group>"; };
 		7387AA4D1DDFFBAF0086517B /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		7387AA4F1DDFFE660086517B /* BaseAnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAnchorViewController.swift; sourceTree = "<group>"; };
+		7387AA511DE01B660086517B /* AmuseMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseMenuView.swift; sourceTree = "<group>"; };
+		7387AA531DE01B820086517B /* AmuseMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuView.xib; sourceTree = "<group>"; };
+		7387AA551DE0240C0086517B /* AmuseMenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseMenuViewCell.swift; sourceTree = "<group>"; };
+		7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuViewCell.xib; sourceTree = "<group>"; };
 		738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		738A42BF1DDDA005003DC81A /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
@@ -238,6 +246,10 @@
 				73D28D961DDF35B5004E3C3C /* RecommendGameView.xib */,
 				73D28D981DDF40EF004E3C3C /* CollectionGameCell.swift */,
 				73D28D991DDF40EF004E3C3C /* CollectionGameCell.xib */,
+				7387AA511DE01B660086517B /* AmuseMenuView.swift */,
+				7387AA531DE01B820086517B /* AmuseMenuView.xib */,
+				7387AA551DE0240C0086517B /* AmuseMenuViewCell.swift */,
+				7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -609,10 +621,12 @@
 				73D28D971DDF35B5004E3C3C /* RecommendGameView.xib in Resources */,
 				73C8BDDD1DDE007100FA1E3B /* LICENSE in Resources */,
 				733897171DD6F7D200573041 /* Live.storyboard in Resources */,
+				7387AA581DE0240C0086517B /* AmuseMenuViewCell.xib in Resources */,
 				733897141DD6F7BA00573041 /* Home.storyboard in Resources */,
 				7322A5151DDE8E5900C70DEB /* RecommendCycleView.xib in Resources */,
 				73E686BF1DD9F08800E24312 /* CollectionPrettyCell.xib in Resources */,
 				7322A51B1DDEA1D100C70DEB /* CollectionCycleCell.xib in Resources */,
+				7387AA541DE01B820086517B /* AmuseMenuView.xib in Resources */,
 				7338971D1DD6F80600573041 /* Profile.storyboard in Resources */,
 				7338971A1DD6F7F200573041 /* Follow.storyboard in Resources */,
 			);
@@ -719,6 +733,7 @@
 				73D28D951DDF359F004E3C3C /* RecommendGameView.swift in Sources */,
 				738BDD6E1DD949C20079E9AE /* PageContentView.swift in Sources */,
 				7338972E1DD7044D00573041 /* UIBarButtonItem-Extension.swift in Sources */,
+				7387AA521DE01B660086517B /* AmuseMenuView.swift in Sources */,
 				73C8BDE21DDE007100FA1E3B /* Filter.swift in Sources */,
 				739A59811DD70E490048A050 /* Common.swift in Sources */,
 				73C8BDEB1DDE007100FA1E3B /* Kingfisher.swift in Sources */,
@@ -729,6 +744,7 @@
 				73C8BDEC1DDE007100FA1E3B /* KingfisherManager.swift in Sources */,
 				73C6ED891DDFDB81004F9212 /* BaseGameModel.swift in Sources */,
 				73C8BDE41DDE007100FA1E3B /* ImageCache.swift in Sources */,
+				7387AA571DE0240C0086517B /* AmuseMenuViewCell.swift in Sources */,
 				73E686BA1DD9B44300E24312 /* CollectionNormalCell.swift in Sources */,
 				73C8BDE81DDE007100FA1E3B /* ImageTransition.swift in Sources */,
 				73D28D9A1DDF40EF004E3C3C /* CollectionGameCell.swift in Sources */,
