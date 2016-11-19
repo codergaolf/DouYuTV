@@ -30,6 +30,7 @@
 		7387AA581DE0240C0086517B /* AmuseMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */; };
 		7387AA5A1DE02C1C0086517B /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA591DE02C1C0086517B /* FunnyViewController.swift */; };
 		7387AA5C1DE02FD90086517B /* FunnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA5B1DE02FD90086517B /* FunnyViewModel.swift */; };
+		7387AA5E1DE034500086517B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387AA5D1DE034500086517B /* BaseViewController.swift */; };
 		738A42BC1DDD9A3C003DC81A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */; };
 		738A42BE1DDD9D65003DC81A /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */; };
 		738A42C01DDDA005003DC81A /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A42BF1DDDA005003DC81A /* AnchorGroup.swift */; };
@@ -127,6 +128,7 @@
 		7387AA561DE0240C0086517B /* AmuseMenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuViewCell.xib; sourceTree = "<group>"; };
 		7387AA591DE02C1C0086517B /* FunnyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewController.swift; sourceTree = "<group>"; };
 		7387AA5B1DE02FD90086517B /* FunnyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewModel.swift; sourceTree = "<group>"; };
+		7387AA5D1DE034500086517B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		738A42BB1DDD9A3C003DC81A /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		738A42BD1DDD9D65003DC81A /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		738A42BF1DDDA005003DC81A /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				7398CF151DD6F0DD00C0A1D8 /* Main.storyboard */,
 				733897261DD6FC2B00573041 /* MainViewController.swift */,
 				7387AA4F1DDFFE660086517B /* BaseAnchorViewController.swift */,
+				7387AA5D1DE034500086517B /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -730,6 +733,7 @@
 				73C8BDEF1DDE007100FA1E3B /* Resource.swift in Sources */,
 				7322A5131DDE8E2800C70DEB /* RecommendCycleView.swift in Sources */,
 				73C8BDDE1DDE007100FA1E3B /* README.md in Sources */,
+				7387AA5E1DE034500086517B /* BaseViewController.swift in Sources */,
 				733897301DD70BAA00573041 /* PageTitleView.swift in Sources */,
 				73C8BDEA1DDE007100FA1E3B /* Indicator.swift in Sources */,
 				73C6ED871DDFDA10004F9212 /* GameModel.swift in Sources */,
