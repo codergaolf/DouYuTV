@@ -113,9 +113,9 @@ extension RecommendViewModel {
             
                 for group in self.anchorGroups {
                     for anchor in group.anchors {
-                        print(anchor.nickname)
+//                        print(anchor.nickname)
                     }
-                    print("--------------")
+//                    print("--------------")
                 }
                 //4, 离开组
                 dGroup.leave()

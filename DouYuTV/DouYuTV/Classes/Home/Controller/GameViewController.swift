@@ -17,6 +17,7 @@ private let kGameCellID = "kGameCellID"
 class GameViewController: UIViewController {
 
     // MARK:- 懒加载属性
+    fileprivate lazy var gameVM : GameViewModel = GameViewModel()
     fileprivate lazy var collectionView : UICollectionView = { [unowned self] in
         //创建布局
         let layout = UICollectionViewFlowLayout()
@@ -27,7 +28,8 @@ class GameViewController: UIViewController {
         
         // 创建UIcollectionView
        let collectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: layout)
-        
+        collectionView.backgroundColor = UIColor.white
+        collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         collectionView.register(UINib(nibName: "CollectionGameCell", bundle: nil), forCellWithReuseIdentifier: kGameCellID)
         collectionView.dataSource = self
         return collectionView
@@ -38,7 +40,8 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         setupUI()
-        
+        loadData()
+
     }
 
 }
@@ -50,17 +53,27 @@ extension GameViewController {
     }
 }
 
+// MARK:- 请求数据
+extension GameViewController {
+    fileprivate func loadData() {
+        gameVM.loadAllGameData {
+            self.collectionView.reloadData()
+        }
+    }
+}
+
 // MARK:- 遵守UIcollectionview的数据源&代理
 extension GameViewController : UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 60
+        return gameVM.games.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kGameCellID, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kGameCellID, for: indexPath) as! CollectionGameCell
         
-        cell.backgroundColor = UIColor.randomColor()
+        cell.baseGame = gameVM.games[indexPath.item]
+        
         
         return cell
     }

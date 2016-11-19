@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AnchorGroup: NSObject {
+class AnchorGroup: BaseGameModel {
     ///该组中该对应的房间信息
     var room_list : [[String : NSObject]]? {
         didSet {
@@ -20,27 +20,12 @@ class AnchorGroup: NSObject {
             
         }
     }
-    ///组显示的标题
-    var tag_name : String = ""
     ///该组显示的图标
     var icon_name : String = "home_header_normal"
-    ///游戏对应的图标
-    var icon_url : String = ""
     ///定义主播的模型对象数组
     lazy var anchors : [AnchorModel] = [AnchorModel]()
     
-    // MARK:- 构造函数
-    override init() {
-        
-    }
     
-    init(dict : [String : NSObject]) {
-        super.init()
-        
-        setValuesForKeys(dict)
-    }
-    
-    override func setValue(_ value: Any?, forUndefinedKey key: String) {}
     
    
 }
